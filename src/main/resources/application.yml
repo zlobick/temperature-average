@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: aggregate
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+  datasource:
+    url: jdbc:postgresql://localhost:5432/weather
+    username: postgres
+    password: postgres
+#logging:
+#  level:
+#    org.springframework.jdbc.core: trace
+#    org.hibernate: trace
+#      sql: trace
+#      type.descriptor.jdbc.BasicBinder: trace
